@@ -82,6 +82,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h2> <span>Education</span> For <span>Kids </span></h2>
 		
 	 			<div class="w3-button">
+	 				
+              <% if user_signed_in? %>
+                <%= link_to 'Edit', edit_user_registration_path %>
+              <% else %>
+                <%= link_to('Sign up', new_user_registration_path) %>
+              <% end %>
+           
+
+           
+              <% if user_signed_in? %>
+                <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+              <% else %>
+                <%= link_to('Login', new_user_session_path) %>
+              <% end %>
 
 	 
             
