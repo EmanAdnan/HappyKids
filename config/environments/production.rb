@@ -87,5 +87,21 @@ Rails.application.configure do
   end
 
   # Do not dump schema after migrations.
-  config.active_record.dump_schema_after_migration = false
+    config.active_record.dump_schema_after_migration = false
+
+config.web_socket_server_url = "wss://thawing-plains-26415.herokuapp.com/cable"
+config.action_cable.allowed_request_origins = ['https://thawing-plains-26415.herokuapp.com', 'http://thawing-plains-26415.herokuapp.com']
+
+
+# Memecachier - Dalli
+  config.cache_store = :dalli_store,
+                      (ENV["MEMCACHIER_SERVERS"] || "").split(","),
+                      {:username => ENV["MEMCACHIER_USERNAME"],
+                      :password => ENV["MEMCACHIER_PASSWORD"],
+                      :failover => true,
+                      :socket_timeout => 1.5,
+                      :socket_failure_delay => 0.2,
+                      :down_retry_delay => 60
+                      }
+
 end
