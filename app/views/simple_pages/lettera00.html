@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Arabic Alphabet</title>
+  <link rel="stylesheet" href="/assets/normalize.css">
+  <style type="text/css" media="screen">
+    body{
+      /*background-color: #7b7b7b17;*/
+
+        /*text-align: center; */
+      background-image: url('/assets/546301.jpg');     
+      background-repeat: no-repeat;
+      background-position: center; 
+          background-color: #fff !important;
+      /*background: #ffffff url("/assets/546301.jpg")  no-repeat fixed center !important;*/
+      
+    }
+    #container{
+
+      direction: rtl;
+      text-align: right;
+      width: 850px;
+      display: block;
+      margin:10px auto;
+      border: 3px solid #ccc7c7;
+      border-radius: 10px;
+      height: 550px;
+        position: relative;
+        background-color: white;
+        opacity: .9;
+
+    }
+    #view{
+      position: relative;
+      height: 55%;
+      /*background-color: rgba(255, 0, 0, 0.6);*/
+      border-bottom: 3px solid #ccc7c7;
+    }
+    #alphabet{
+      position: relative;
+      height: 45%;
+      padding: 3%;      
+      box-sizing: border-box;
+      background-color: rgba(255, 0, 0, 0.1);     
+    }
+    .alphabet-block{
+      text-align: center;
+      font-size: 30pt;
+    }
+    .alphabet-block span{
+      display:  inline-block; 
+      width:  55px;
+      height: 55px;
+      line-height: 55px;
+      border: 1px solid red;
+      border-radius: 55px;
+      text-align: center;
+      margin: 5px;
+      cursor: pointer;
+    }
+    .alphabet-block span:hover{
+      background-color: rgba(255, 0, 0, 0.8);
+    }
+    .alphabet-block span.selected{
+      background-color: rgb(255, 168, 168);
+    }
+    .view-block-letter, .view-block-image, .view-block-word{
+      display: inline-block;
+      width:  31%;
+      margin: 1%;
+      height: 95%;
+      box-sizing: border-box;
+      /*border: 1px solid red;*/
+      float:  right;
+    }
+
+    .view-block-word {
+      text-align: center; 
+      background-image: url('/assets/if_cloud_370088.png');      
+      background-repeat: no-repeat;
+      background-position: center;      
+
+    }
+    .view-block-letter span, .view-block-word span {
+      font-size:  75px;
+      display: block; 
+      margin:125px auto;          
+    }
+    .view-block-word span.x::first-letter{
+      color: red;
+    }
+    .view-block-letter span{
+      width: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="view">
+      <div class="view-block-letter">
+        <span>أ</span>
+      </div>
+      <div class="view-block-image"></div>
+      <div class="view-block-word">
+        <span></span>
+      </div>
+    </div>
+    <div id="alphabet">
+      <div class="alphabet-block" id="block1"></div>
+      <div class="alphabet-block" id="block2"></div>
+      <div class="alphabet-block" id="block3"></div>
+    </div>
+  </div>
+  <script>
+    var alphabets = ["ا", "ب", "ت", "ث", "ج", "ح", "خ", "د", "ذ", "ر", "ز", "س", "ش", "ص", "ض", "ط", "ظ", "ع", "غ", "ف", "ق", "ك", "ل", "م", "ن", "هـ", "و", "ي"];
+    var words = ["اسد", "بطة", "تفاحة", "ثعلب", "جمل", "حمار", "خروف", "دجاجة", "ذرة", "رمان", "زرافة", "سمكة", "شجرة", "صوص", "ضفدع", "طائرة", "ظابط", "عنب", "غزال", "فيل", "قرد", "كرة", "ليمون", "مفتاح", "نحلة", "هدية", "وردة", "يد"];
+    $(function(){
+      
+      displayCharacters($('#block1'), 9, 0);
+      displayCharacters($('#block2'), 10, 9);
+      displayCharacters($('#block3'), 9, 19);
+
+      $('.alphabet-block span:eq(0)').trigger('click');
+
+    });
+    function displayCharacters($block, length, startIndex){
+      for(var i = 0; i < length; i++){
+        var alphabetIndex = startIndex + i;
+        $el = $('<span></span>');
+        $el.attr('data-alphabet-index', alphabetIndex);
+        $el.text(alphabets[alphabetIndex]);
+        $block.append($el);
+      } 
+    }
+    $(document).on('click', '.alphabet-block span', function(){
+      var $this = $(this);
+      var letterIndex = $this.data('alphabet-index');
+      var letter = alphabets[letterIndex];
+      
+      $('.view-block-letter span').text(letter);      
+
+      var word = words[letterIndex];
+
+      $('.view-block-word span').text(word);
+
+      var letterImageUrl = '/assets/'+letterIndex+ '.png'; 
+      var $letterImage = $('<img></img>');
+      $letterImage.attr('src', letterImageUrl).hide();
+      $('.view-block-image').empty().append($letterImage);
+      $letterImage.fadeIn('slow');
+
+      $('.selected').removeClass('selected');
+      $this.addClass('selected');
+
+    });
+
+  </script>
+</body>
+</html>

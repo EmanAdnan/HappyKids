@@ -1,0 +1,2659 @@
+/* line 1, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 10, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 16, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 25, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 29, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 39, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 44, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 49, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 53, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 59, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 66, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 76, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 82, C:/sites/kidsapp/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* line 14, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+html, body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  font-family: 'Asap Condensed', sans-serif;
+}
+
+/* line 20, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  text-decoration: none;
+}
+
+/* line 28, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+body a:hover {
+  text-decoration: none;
+}
+
+/* line 32, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+body a:focus, a:hover {
+  text-decoration: none;
+}
+
+/* line 36, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+input[type="button"], input[type="submit"] {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/* line 43, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Asap Condensed', sans-serif;
+  letter-spacing: 1px;
+}
+
+/* line 49, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+p {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  font-family: 'Asap Condensed', sans-serif;
+  word-spacing: 3px;
+}
+
+/* line 56, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/*-- //Reset-Code --*/
+/* line 61, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.team-all, .buttom-w3, .contact, .about-page, .services, .about-middle, .gallery {
+  padding: 4em 0;
+}
+
+/* line 62, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+h3.tittle {
+  margin-bottom: 1em;
+  text-align: center;
+  color: #E21737;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* line 70, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+h3.title {
+  color: #fff;
+}
+
+/*-- header --*/
+/* line 75, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+header {
+  padding: 10px 0px;
+  width: 100%;
+}
+
+/*---nav bar--*/
+/* line 80, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.navbar-collapse {
+  padding: 0;
+}
+
+/* line 82, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+ul.navbar-nav.mr-auto {
+  list-style: none;
+}
+
+/* line 86, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+  margin: 0 2em;
+}
+
+/* line 91, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+  border-bottom: 2px solid #fff;
+  color: red;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/* line 100, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.navbar-nav > li > a {
+  color: #1090b1;
+  font-size: 18px;
+  padding: 10px 23px;
+  text-align: center;
+  border-top: 2px solid #1090b1;
+  border-bottom: rgba(255, 244, 244, 0);
+}
+
+/* line 108, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.navbar-nav {
+  float: none;
+  text-align: center;
+}
+
+/*--end nav bar--*/
+/*--banner--*/
+/* line 115, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.w3-agile-logo {
+  margin: 2em 0;
+  background: rgba(9, 88, 128, 0);
+}
+
+/* line 119, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.head-wl {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 124, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.headder-w3 {
+  float: left;
+  display: inline-block;
+}
+
+/* line 129, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.head-wl h1 a {
+  text-transform: uppercase;
+  color: #df2e42;
+  font-size: 50px;
+}
+
+/* line 135, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.tele {
+  float: right;
+  margin: 0.5em 0;
+}
+
+/* line 140, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.tele p {
+  color: #df2e42;
+  font-size: 16px;
+}
+
+/* line 144, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.tele p span {
+  color: #df2e42;
+}
+
+/* line 148, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.tele h6 {
+  color: #df2e42;
+  font-size: 14px;
+}
+
+/* line 152, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.banner-w3 {
+  background-image: url("h3.jpg");
+  background-size: cover;
+  min-height: 800px;
+}
+
+/* line 157, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.w3layouts-text {
+  text-align: center;
+  margin-top: 15em;
+}
+
+/* line 161, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.w3layouts-text h2 {
+  color: #5cb85c;
+  font-size: 3.5em;
+  font-weight: 300;
+  margin: 0.5em 0;
+}
+
+/* line 168, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.w3layouts-text h2 span {
+  color: #df2e42;
+}
+
+/* line 171, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.w3layouts-text p {
+  color: #d0d0d0;
+  font-size: 29px;
+}
+
+/* line 179, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.w3-button a {
+  color: #5cb85c;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border: solid 2px #00b6e3;
+  padding: .7em 2em;
+  outline: 0;
+  display: inline-block;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/* line 196, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.w3-button a:hover {
+  color: #fff;
+  background: #00b6e3;
+  border: 2px solid #00b6e3;
+}
+
+/* line 203, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.text-center {
+  padding-top: 4em;
+}
+
+/* line 207, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.btn-lg, .btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+/* line 217, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.btn-success {
+  padding: 10px 40px;
+}
+
+/*
+.learning-button{
+    padding:4em 0em;
+    margin: 0em 25em;
+}
+*/
+/*
+.learning-button a{
+    
+     color: #8254a4;
+    font-size: 25px;
+    font-weight: 700;
+	letter-spacing:1px;
+    text-decoration: none;
+    border: solid 2px #00b6e3;
+    padding: .7em 2em;
+	outline:0;
+	display:inline-block;
+			transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;   
+    
+}
+
+.learning-button a:hover{
+    color: #fff;
+    background: #00b6e3;
+      border:2px solid #00b6e3;
+}
+
+.color-button{
+    padding:4em 0em;
+    margin-right: 25em;
+}
+
+.color-button a {
+        color: #e8528f;
+    font-size: 25px;
+    font-weight: 700;
+	letter-spacing:1px;
+    text-decoration: none;
+    border: solid 2px #00b6e3;
+    padding: .7em 2.5em;
+	outline:0;
+	display:inline-block;
+			transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;   
+    
+    
+}
+
+.color-button a:hover{
+    color: #fff;
+    background: #00b6e3;
+      border:2px solid #00b6e3;
+}
+*/
+/* line 286, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.hr1 .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 293, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.agileits-w3layouts-info img {
+  width: 100%;
+}
+
+/* line 294, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.agileits-w3layouts-info p {
+  line-height: 30px;
+  margin-top: 1.5em;
+}
+
+/*--start-header--*/
+/*-- about--*/
+/* line 299, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.agile-contact-grids h3 {
+  text-align: center;
+  font-size: 45px;
+  color: #fff;
+  margin: 0em 0 1em;
+}
+
+/*
+.about-gd-left{
+	float:left;
+	width:19%;
+}
+.about-gd-right{
+	float:right;
+	width:78%;
+}
+*/
+/* line 316, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.about-grid h4 {
+  color: #000;
+  font-size: 2em;
+}
+
+/* line 321, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.about-grid #h4about {
+  margin-top: 2em;
+}
+
+/* line 325, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.about-grid #Pabout {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+/*
+.about-gd-left h5 {
+    color: #00b6e3;
+    font-size: 1.8em;
+}
+.about-gd-right p {
+    font-size: 14px;
+    color: #464646;
+    line-height: 2.2em;
+}
+*/
+/* line 340, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.about-gd {
+  margin-top: 1.4em;
+}
+
+/*-- services --*/
+/* line 347, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.services {
+  background-image: url("vid.jpg");
+  background-size: cover;
+}
+
+/* line 350, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.team-info {
+  margin-top: 5em;
+}
+
+/* line 353, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.servc-grid {
+  padding: 0 4em;
+  text-align: center;
+}
+
+/*
+.servc-grid.servc-grid-btm {
+    margin-top: 2em;
+}
+.servc-grid span {
+    font-size: 2.5em;
+    color: #fff;
+    vertical-align: middle;
+	-webkit-transition:.5s all;
+	transition:.5s all;
+	-moz-transition:.5s all;
+}
+.servc-grid ul li {
+    display: inline-block;
+}
+.servc-grid h4 {
+    font-size: 22px;
+    margin-left:1em;
+    color: #00b6e3;
+    line-height: 1.5em;
+}
+.servc-grid p {
+    margin-top: .5em;
+    text-align: center;
+	   color: #bbb;
+	   font-size:15px;
+	   line-height:27px;
+}
+.servc-grid:hover span {
+    color: #00b6e3;
+	-webkit-transform: rotatey(360deg);
+    transform: rotatey(360deg);
+	-moz-transform: rotatey(360deg);
+	-o-transform: rotatey(360deg);
+	-ms-transform: rotatey(360deg);
+}
+*/
+/*-- //services --*/
+/*-- team --*/
+/* line 397, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.team-top {
+  background: #00b6e3;
+  height: 94px;
+}
+
+/* line 401, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.team-bottom h4 {
+  text-align: center;
+  color: #08538c;
+  font-size: 27px;
+}
+
+/* line 406, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.team-bottom p {
+  margin: 14px 22px 19px;
+  color: #464646;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* line 412, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.team-left {
+  border: 1px solid #ccc;
+}
+
+/* line 415, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.fb_icon3 :hover, .fb_icon2 :hover, .fb_icon1 :hover {
+  color: #000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 423, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.fb_icon3, .fb_icon2, .fb_icon1 {
+  padding: 0.7em 0;
+  color: #fff;
+  font-size: 14px;
+  background: #00b6e3;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+}
+
+/* line 438, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.team-bottom ul li {
+  display: inline-block;
+  margin: 0 12px 0 0;
+}
+
+/* line 442, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.team-bottom ul li:nth-child(3) {
+  margin-right: 0;
+}
+
+/* line 445, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.team-bottom ul {
+  text-align: center;
+}
+
+/* line 448, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.t-img img {
+  width: 23%;
+  position: absolute;
+  left: 37%;
+  top: 16%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border: 3px solid #FFFFFF;
+  -webkit-border: 3px solid #FFFFFF;
+  -moz-border: 3px solid #FFFFFF;
+  -o-border: 3px solid #FFFFFF;
+  -ms-border: 3px solid #FFFFFF;
+}
+
+/* line 464, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.team-bottom {
+  padding: 4em 0 2em;
+}
+
+/* line 467, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.team-left {
+  position: relative;
+}
+
+/* line 470, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+p.para {
+  font-size: 15px;
+  margin: 0em auto 1.5em;
+  width: 70%;
+  text-align: center;
+  line-height: 2.2em;
+}
+
+/*-- News --*/
+/* line 480, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.about-midd-main h4 {
+  font-size: 1em;
+  margin-bottom: 6%;
+  color: #fff;
+}
+
+/* line 485, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.about-midd-main h4 span {
+  font-size: 3.5em;
+}
+
+/* line 488, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.about-midd-main h5 a {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  margin-bottom: 7%;
+  display: inline-block;
+}
+
+/* line 496, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.about-midd-main p {
+  font-size: 1em;
+  color: #afaaaa;
+  line-height: 1.9;
+  letter-spacing: 1px;
+}
+
+/* line 502, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+ul.get-touch {
+  padding: 0em;
+  list-style: none;
+}
+
+/* line 506, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+ul.get-touch li {
+  margin-bottom: 1.3em;
+  color: #fff;
+}
+
+/* line 510, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.w3-test {
+  background: #0f1010;
+  padding: 2.43em 4em;
+}
+
+/* line 515, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+img.agile-img {
+  width: 100%;
+}
+
+/*-- Model --*/
+/* line 520, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.modal-header h4 {
+  color: black;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0.3em;
+}
+
+/* line 529, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.modal-header p {
+  color: #00b6e3;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+/* line 536, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.modal-header span {
+  font-size: 1.1em;
+  color: #777;
+  letter-spacing: 2px;
+  line-height: 33px;
+  padding-bottom: 16px;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+/* line 545, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.modal-header img {
+  float: left;
+  width: 100%;
+}
+
+/* line 549, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.view {
+  font-size: 1em;
+  color: #fff;
+  background: #fdbd10;
+  padding: 0.6em 1.2em;
+  letter-spacing: 1px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  margin-top: 2em;
+  display: inline-block;
+}
+
+/* line 563, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+a.view:hover {
+  color: #fff;
+  background: #00b6e3;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/*-- //Model --*/
+/*-- //News --*/
+/*--gallery--*/
+/* line 575, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.gallery {
+  background-image: url("bg1.jpg");
+  background-size: cover;
+}
+
+/* line 578, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.gallery-grid {
+  padding: 0;
+}
+
+/*--gallery--*/
+/*--contact--*/
+/* line 581, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.contact-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* line 584, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.styled-input.agile-styled-input-top {
+  margin-top: 0;
+}
+
+/*-- input-effect --*/
+/* line 589, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.styled-input input:focus ~ label, .styled-input input:valid ~ label, .styled-input textarea:focus ~ label, .styled-input textarea:valid ~ label {
+  font-size: .9em;
+  color: #ff0000;
+  top: -1.3em;
+  -webkit-transition: all 0.125s;
+  -moz-transition: all 0.125s;
+  -o-transition: all 0.125s;
+  -ms-transition: all 0.125s;
+  transition: all 0.125s;
+}
+
+/* line 599, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.styled-input {
+  width: 100%;
+  margin: 2em 0 1em;
+}
+
+/* line 604, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.styled-input input ~ span, .styled-input textarea ~ span {
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: all 0.125s;
+  -moz-transition: all 0.125s;
+  transition: all 0.125s;
+}
+
+/* line 616, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.styled-input textarea ~ span {
+  bottom: 5px;
+}
+
+/* line 619, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.styled-input input:focus.styled-input textarea:focus {
+  outline: 0;
+}
+
+/* line 622, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.styled-input input:focus ~ span, .styled-input textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s;
+  -moz-transition: all 0.075s;
+  transition: all 0.075s;
+}
+
+/*--footer--*/
+/* line 632, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.bottom-head h3 a {
+  font-size: 50px;
+  color: #00b6e3;
+}
+
+/* line 635, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.copy p {
+  font-size: 14px;
+  color: #000;
+}
+
+/* line 640, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.icons ul li {
+  display: inline-block;
+}
+
+/* line 643, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.icons ul li a {
+  color: #000;
+}
+
+/* line 647, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.icons ul li a span.fa {
+  margin: 0.5em;
+  font-size: 19px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/* line 656, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.icons ul li a span.fa.fa-facebook:hover {
+  color: #3b5998;
+}
+
+/* line 660, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.icons ul li a span.fa.fa-twitter:hover {
+  color: #55acee;
+}
+
+/* line 663, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.icons ul li a span.fa.fa-rss:hover {
+  color: #f26522;
+}
+
+/* line 666, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.icons ul li a span.fa.fa-vk:hover {
+  color: #45668e;
+}
+
+/* line 669, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.buttom-para {
+  margin-top: 3em;
+}
+
+/* line 670, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.copy, .post {
+  margin-top: 0em;
+}
+
+/* line 671, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.sub-para p {
+  font-size: 14px;
+  color: #000;
+}
+
+/* line 675, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.buttom-para p {
+  color: #000;
+  font-size: 14px;
+}
+
+/* line 677, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.letter input[type="email"] {
+  outline: none;
+  border: 1px solid  #00b6e3;
+  color: #212121;
+  font-size: 14px;
+  padding: 10px;
+  width: 70%;
+  float: left;
+  background: none;
+}
+
+/* line 687, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.newsletter input[type="submit"] {
+  outline: none;
+  display: inline-block;
+  border: 2px solid #00b6e3;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 0;
+  font-weight: 700;
+  width: 30%;
+  background: #00b6e3;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/* line 703, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.newsletter input[type="submit"]:hover {
+  color: #fff;
+  background: #000;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/* line 712, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+footer {
+  text-align: center;
+  background: #000;
+  padding: 1em 0;
+}
+
+/* line 717, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+footer p {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* line 721, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+footer p a {
+  color: red;
+}
+
+/* line 722, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+footer p a:hover {
+  color: white;
+}
+
+/*-- bottom-to-top --*/
+/* line 724, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+#toTop {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 24px;
+  right: 1%;
+  overflow: hidden;
+  z-index: 999;
+  width: 64px;
+  height: 64px;
+  border: none;
+  text-indent: 100%;
+  background: url("../images/arrowup.png") no-repeat 0px 0px;
+}
+
+/* line 738, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+#toTopHover {
+  width: 64px;
+  height: 64px;
+  display: block;
+  overflow: hidden;
+  float: right;
+  opacity: 0;
+  -moz-opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+/*-- //bottom-to-top --*/
+/*--responsive--*/
+@media (max-width: 1080px) {
+  /* line 770, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .navbar-nav > li {
+    margin: 0 1em;
+  }
+
+  /* line 773, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3-test {
+    padding: 1.43em 4em;
+  }
+
+  /* line 776, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3layouts-text {
+    margin-top: 12em;
+  }
+
+  /* line 779, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .banner-w3 {
+    min-height: 693px;
+  }
+
+  /* line 782, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .contact-form {
+    width: 63%;
+  }
+}
+@media (max-width: 1024px) {
+  /* line 790, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-img {
+    width: 50%;
+  }
+
+  /* line 793, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-midd-main h5 a {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+  }
+
+  /* line 797, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3-test {
+    padding: 3.5em 2.5em;
+  }
+
+  /* line 800, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-midd-main p {
+    letter-spacing: 0px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 806, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .navbar-nav > li > a {
+    font-size: 17px;
+    padding: 10px 11px;
+  }
+
+  /* line 810, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .banner-w3 {
+    min-height: 606px;
+  }
+
+  /* line 813, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-w3 img {
+    width: 100%;
+  }
+
+  /* line 817, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .head-wl h1 a {
+    font-size: 45px;
+  }
+
+  /* line 820, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3layouts-text {
+    margin-top: 9em;
+  }
+
+  /* line 823, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  h3.tittle {
+    margin-bottom: 0.5em;
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  /* line 828, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-w3 {
+    margin-top: 2em;
+  }
+
+  /* line 831, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .servc-grid {
+    padding: 0em 4em;
+  }
+
+  /* line 834, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .servc-grid-top {
+    margin-top: 2em;
+  }
+
+  /* line 835, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .gallery-grid {
+    float: left;
+    width: 33%;
+  }
+
+  /* line 839, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-img {
+    width: 95%;
+  }
+
+  /* line 842, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3-test {
+    padding: 1em 0;
+  }
+
+  /* line 845, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-midd-main h4 span {
+    font-size: 29px;
+  }
+
+  /* line 848, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-midd-main h5 a {
+    font-size: 21px;
+    letter-spacing: 1px;
+  }
+
+  /* line 852, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-midd-main p {
+    font-size: 1em;
+    padding: 0 1em;
+  }
+
+  /* line 856, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .contact-form {
+    width: 80%;
+  }
+
+  /* line 859, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .team-all, .buttom-w3, .contact, .about-page, .services, .about-middle, .gallery {
+    padding: 3em 0;
+  }
+
+  /* line 865, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .buttom-para {
+    margin-top: 1em;
+  }
+
+  /* line 868, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .copy, .post {
+    margin-top: 1em;
+  }
+
+  /* line 871, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .copyright, .letter-sub {
+    margin-top: 2em;
+  }
+
+  /* line 874, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .t-img img {
+    width: 39%;
+    left: 31%;
+  }
+
+  /* line 878, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3layouts-text h2 {
+    font-size: 3em;
+  }
+}
+@media (max-width: 900px) {
+  /* line 884, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .banner-w3 {
+    min-height: 561px;
+  }
+
+  /* line 887, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3layouts-text {
+    margin-top: 7em;
+  }
+}
+@media (max-width: 800px) {
+  /* line 893, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .banner-w3 {
+    min-height: 550px;
+  }
+
+  /* line 896, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3layouts-text {
+    margin-top: 5em;
+  }
+
+  /* line 900, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .head-wl h1 a {
+    font-size: 41px;
+  }
+
+  /* line 903, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  h3.tittle {
+    font-size: 31px;
+  }
+
+  /* line 907, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-grid h4 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 916, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .header-w3 {
+    margin-top: 0;
+  }
+
+  /* line 919, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .navbar-default .navbar-toggle {
+    border-color: #fff;
+  }
+
+  /* line 922, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #ff0000;
+  }
+
+  /* line 925, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .navbar-default .navbar-toggle {
+    border-color: #ddd;
+  }
+
+  /* line 928, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .navbar-toggle {
+    background-color: rgba(216, 34, 34, 0);
+    border: 1px solid rgba(251, 247, 247, 0.88);
+    margin: 0;
+    margin-top: 6px;
+    z-index: 9999;
+  }
+
+  /* line 935, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  div#navbarSupportedContent {
+    background: rgba(0, 0, 0, 0.83);
+    position: absolute;
+    width: 96%;
+    z-index: 999;
+    border: 1px solid transparent;
+  }
+
+  /* line 942, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .navbar-nav > li > a {
+    border-top: none;
+  }
+
+  /* line 945, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .navbar-toggle .icon-bar {
+    background: red;
+  }
+
+  /* line 947, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .navbar-nav > li {
+    display: block;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  /* line 951, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .navbar-nav {
+    margin: 0;
+    padding: 1em 0;
+  }
+
+  /* line 955, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .servc-grid {
+    padding: 0em 14em;
+  }
+
+  /* line 958, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .servc-grid ul li {
+    display: block;
+  }
+
+  /* line 961, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .team-gd {
+    width: 55%;
+    margin: 2em auto;
+  }
+
+  /* line 964, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .t-img img {
+    width: 28%;
+    left: 36%;
+  }
+
+  /* line 968, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .team-buttom {
+    margin-bottom: 0;
+  }
+
+  /* line 969, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .team-top {
+    height: 113px;
+  }
+
+  /* line 972, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .team-bottom {
+    padding: 4em 4em 2em;
+  }
+}
+@media (min-width: 737px) {
+  /* line 977, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-midd-main {
+    display: flex;
+    display: -webkit-box;
+  }
+
+  /* line 981, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-img {
+    width: 100%;
+    flex: 3;
+    -webkit-box-flex: 3;
+  }
+
+  /* line 987, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3-test {
+    flex: 1;
+    -webkit-box-flex: 1;
+  }
+}
+@media (max-width: 736px) {
+  /* line 991, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .banner-w3 {
+    min-height: 503px;
+  }
+
+  /* line 995, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-img {
+    width: 100%;
+  }
+
+  /* line 998, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-midd-main h4 {
+    margin-bottom: 3%;
+  }
+
+  /* line 1001, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-midd-main h5 a {
+    margin-bottom: 3%;
+  }
+}
+@media (max-width: 667px) {
+  /* line 1006, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .head-wl h1 a {
+    font-size: 34px;
+  }
+
+  /* line 1009, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3layouts-text h2 {
+    font-size: 30px;
+  }
+
+  /* line 1012, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3layouts-text p {
+    font-size: 24px;
+  }
+
+  /* line 1016, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3-button a {
+    padding: .7em 1em;
+  }
+}
+@media (max-width: 640px) {
+  /* line 1021, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .banner-w3 {
+    min-height: 458px;
+  }
+
+  /* line 1025, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .team-gd {
+    width: 61%;
+  }
+
+  /* line 1028, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .team-top {
+    height: 83px;
+  }
+
+  /* line 1031, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .contact-form {
+    width: 100%;
+  }
+
+  /* line 1034, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .bottom-head h3 a {
+    font-size: 45px;
+  }
+
+  /* line 1038, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .servc-grid {
+    padding: 0em 10em;
+  }
+
+  /* line 1041, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .team-bottom {
+    padding: 4em 1em 2em;
+  }
+
+  /* line 1044, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .team-bottom p {
+    margin: 13px 20px 19px;
+  }
+
+  /* line 1046, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  p.para {
+    width: 100%;
+  }
+
+  /* line 1049, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-midd-main p {
+    padding: 0 2em;
+  }
+}
+@media (max-width: 600px) {
+  /* line 1054, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  div#navbarSupportedContent {
+    width: 95%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 1062, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  div#navbarSupportedContent {
+    width: 94%;
+  }
+
+  /* line 1065, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .servc-grid {
+    padding: 0 6em;
+  }
+
+  /* line 1069, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .team-bottom p {
+    margin: 13px 15px 19px;
+    line-height: 25px;
+  }
+
+  /* line 1073, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .team-gd {
+    width: 76%;
+  }
+
+  /* line 1076, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .gallery-grid {
+    float: none;
+    width: 100%;
+  }
+}
+@media (max-width: 440px) {
+  /* line 1082, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  footer {
+    line-height: 27px;
+  }
+}
+@media (max-width: 414px) {
+  /* line 1087, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .banner-w3 {
+    min-height: 455px;
+  }
+
+  /* line 1090, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3layouts-text {
+    margin-top: 3em;
+  }
+
+  /* line 1093, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .servc-grid {
+    padding: 0 1em;
+  }
+
+  /* line 1096, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .team-gd {
+    width: 100%;
+    margin: 2em 0em;
+  }
+
+  /* line 1100, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-midd-main p {
+    padding: 0 2em;
+  }
+}
+@media (max-width: 384px) {
+  /* line 1105, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  div#navbarSupportedContent {
+    width: 93%;
+  }
+
+  /* line 1108, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .head-wl h1 a {
+    font-size: 31px;
+  }
+
+  /* line 1111, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3layouts-text h2 {
+    font-size: 29px;
+  }
+
+  /* line 1114, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-gd-left h5 {
+    font-size: 22px;
+  }
+
+  /* line 1118, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .contact input[type="submit"] {
+    padding: .7em 2em;
+  }
+}
+@media (max-width: 375px) {
+  /* line 1123, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  h3.tittle {
+    font-size: 29px;
+  }
+
+  /* line 1127, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-grid h4 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 320px) {
+  /* line 1132, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  div#navbarSupportedContent {
+    width: 91%;
+  }
+
+  /* line 1135, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3layouts-text p {
+    font-size: 19px;
+  }
+
+  /* line 1138, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .w3layouts-text h2 {
+    font-size: 27px;
+  }
+
+  /* line 1141, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-gd-right {
+    width: 100%;
+    float: none;
+    margin-top: 1em;
+  }
+
+  /* line 1146, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-gd-left {
+    width: 100%;
+    float: none;
+  }
+
+  /* line 1150, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .about-midd-main p {
+    padding: 0 2em;
+  }
+
+  /* line 1153, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  footer {
+    padding: 1em 1em;
+  }
+}
+/*--//responsive--*/
+/*start learning page*/
+/*
+.learnback{
+    background-image: url(../images/learnb2.jpg) ;
+    background-repeat: no-repeat;
+    width: 100%;
+   
+   
+   
+    
+}
+*/
+/* line 1176, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.navline .breadcrumb {
+  background-color: #fdefef;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: -2em;
+}
+
+/* line 1183, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.navline .breadcrumb li {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+/* line 1188, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback h3 {
+  font-size: 50px;
+  color: #f20082;
+}
+
+/* line 1196, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .b1 {
+  /*
+       padding: 10px 16px;
+      font-size: 30px;
+      line-height: 1.3333333;
+      border-radius: 6px;
+      margin-right: 2em;
+      margin-left: 2em;
+  */
+  margin-top: 3em;
+}
+
+/* line 1208, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .b1 .b11 {
+  padding: 40px 25px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 100px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: #059cce;
+  border-color: #059cce;
+  border-bottom-color: #a1dbef;
+  border-right-color: #a1dbef;
+  color: #fff;
+  margin-bottom: 3em;
+}
+
+/* line 1224, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .b1 .b22 {
+  padding: 40px 20px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 100px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+  border-bottom-color: #bdfbbd;
+  border-right-color: #bdfbbd;
+  color: #fff;
+  margin-bottom: 3em;
+}
+
+/*
+.learnback .b3{
+
+    margin-top: 15em;
+}
+*/
+/* line 1251, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .b3 .b33 {
+  padding: 40px 30px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 100px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: #fb0226;
+  border-color: #fb0226;
+  border-bottom-color: #ecaeb7;
+  border-right-color: #ecaeb7;
+  color: #fff;
+  margin-bottom: 3em;
+}
+
+/* line 1268, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .b3 .b44 {
+  padding: 40px 20px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 100px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: #f20082;
+  border-color: #f20082;
+  border-bottom-color: #f9b6da;
+  border-right-color: #f9b6da;
+  color: #fff;
+}
+
+/* line 1286, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.imgl .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 1292, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.footerlearn {
+  margin-top: 5em;
+}
+
+/*end learning page*/
+/*start arabic*/
+/* line 1304, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .b1 .b111 {
+  padding: 15px 68px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 10px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: #d04eb4;
+  border-color: #d04eb4;
+  border-bottom-color: #fbb9ed;
+  border-right-color: #fbb9ed;
+  color: #fff;
+  margin-bottom: 3em;
+}
+
+/* line 1320, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .b1 .b222 {
+  padding: 15px 68px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 10px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: #a7e631;
+  border-color: #a7e631;
+  border-bottom-color: #fffffe;
+  border-right-color: #fffffe;
+  color: #fff;
+  margin-bottom: 3em;
+}
+
+/* line 1336, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .b3 .b333 {
+  padding: 15px 68px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 10px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: #fd0126;
+  border-color: #fd0126;
+  border-bottom-color: #fda1ae;
+  border-right-color: #fda1ae;
+  color: #fff;
+}
+
+/*end arabic*/
+/*start math*/
+/* line 1362, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .b1 .b1111 {
+  padding: 15px 50px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 10px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: #d04eb4;
+  border-color: #d04eb4;
+  border-bottom-color: #fbb9ed;
+  border-right-color: #fbb9ed;
+  color: #fff;
+  margin-bottom: 3em;
+}
+
+/* line 1378, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .b1 .b2222 {
+  padding: 15px 38px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 10px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: #a7e631;
+  border-color: #a7e631;
+  border-bottom-color: #fffffe;
+  border-right-color: #fffffe;
+  color: #fff;
+  margin-bottom: 3em;
+}
+
+/* line 1394, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .b3 .b3333 {
+  padding: 15px 68px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 10px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: #fd0126;
+  border-color: #fd0126;
+  border-bottom-color: #fda1ae;
+  border-right-color: #fda1ae;
+  color: #fff;
+}
+
+/*end math*/
+/*start math*/
+/* line 1416, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .b1 .b11111 {
+  padding: 15px 53px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 10px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: #d04eb4;
+  border-color: #d04eb4;
+  border-bottom-color: #fbb9ed;
+  border-right-color: #fbb9ed;
+  color: #fff;
+  margin-bottom: 3em;
+}
+
+/* line 1432, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .b1 .b22222 {
+  padding: 15px 64px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 10px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: #a7e631;
+  border-color: #a7e631;
+  border-bottom-color: #fffffe;
+  border-right-color: #fffffe;
+  color: #fff;
+  margin-bottom: 3em;
+}
+
+/* line 1448, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .b3 .b33333 {
+  padding: 15px 68px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 10px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: #fd0126;
+  border-color: #fd0126;
+  border-bottom-color: #fda1ae;
+  border-right-color: #fda1ae;
+  color: #fff;
+}
+
+/*end islamic*/
+/*start letter arabic*/
+/* line 1471, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .video {
+  margin-top: 4em;
+}
+
+/* line 1477, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.letterA .row .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 1482, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.letterA .row p {
+  font-size: 55px;
+  word-spacing: 25px;
+}
+
+/*
+.letter .row .text{
+    padding-top: 125px
+}
+
+.letter .row .text1{
+  padding-left: 15em;  
+}
+
+.letter .row .text2{
+    padding-right: 15em;
+}
+*/
+/*end letter arabic*/
+/*start letter english*/
+/* line 1512, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.letterE .row .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 1517, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.letterE .row p {
+  font-size: 50px;
+  word-spacing: 25px;
+}
+
+/*end letter english*/
+/*start word arabic*/
+/* line 1529, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .animal .img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 4em;
+}
+
+/* line 1536, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .fruit .img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 4em;
+}
+
+/*end word arabic*/
+/*start animal arabic*/
+/* line 1548, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .textcat {
+  padding-top: 100px;
+  padding-left: 80px;
+}
+
+/* line 1554, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .textcat h4 {
+  font-size: 60px;
+  margin-right: 2em;
+}
+
+/* line 1559, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .textcat button {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 4em;
+  background-color: #3aaa30;
+}
+
+/* line 1568, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .cat {
+  margin-left: 4em;
+  margin-top: 4em;
+}
+
+/* line 1573, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .all .row .img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 4em;
+}
+
+/*end animal arabic*/
+/*start ablution */
+/*end ablution*/
+/*start prayer*/
+/* line 1590, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .prayer {
+  margin-top: 2em;
+}
+
+/* line 1595, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .prayer .img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 4em;
+}
+
+/*end prayer*/
+/*start number*/
+/* line 1608, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .videonumber {
+  margin-top: 4em;
+}
+
+/* line 1616, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .textnum {
+  padding-top: 100px;
+  padding-left: 80px;
+}
+
+/* line 1622, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .textnum button {
+  padding-left: 38px;
+  padding-right: 38px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 4em;
+  background-color: #3aaa30;
+}
+
+/* line 1631, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .textnum h4 {
+  font-size: 40px;
+  margin-right: 3em;
+}
+
+/* line 1638, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .num {
+  margin-left: 4em;
+  margin-top: 4em;
+}
+
+/* line 1643, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .numbers .row .img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 6em;
+}
+
+/*end number*/
+/*start operation */
+/* line 1655, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .sumoperation {
+  margin-top: 4em;
+}
+
+/* line 1660, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .suboperation {
+  margin-top: 4em;
+}
+
+/*end operation*/
+/*start color*/
+/* line 1672, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .colorvid {
+  margin-top: 4em;
+}
+
+/* line 1676, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .colorimgs .img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 6em;
+}
+
+/*end color*/
+/*start test math*/
+/* line 1688, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row .img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* line 1696, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .Q1 {
+  margin-top: 2em;
+}
+
+/* line 1700, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .Q1 h4 {
+  font-size: 30px;
+  margin-top: 2em;
+}
+
+/* line 1705, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .Q1 button {
+  font-size: 20px;
+  padding-right: 1em;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+/* line 1712, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row #cacke {
+  margin-top: 1em;
+}
+
+/* line 1717, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row #numcacke {
+  margin-top: -.5em;
+}
+
+/* line 1721, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row #lions {
+  margin-bottom: 1em;
+}
+
+/* line 1725, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row .Q1 #A {
+  width: 100px;
+  height: 50px;
+  margin-left: 17em;
+}
+
+/* line 1732, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row #numplus {
+  margin-top: -1em;
+}
+
+/*end test math*/
+/*start test arabic*/
+/* line 1739, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row #eyeA {
+  margin-top: 3.5em;
+}
+
+/* line 1743, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row #frog {
+  margin-top: 4em;
+}
+
+/* line 1747, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row #eleA {
+  margin-top: 2em;
+}
+
+/* line 1752, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row #oraA {
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+/* line 1757, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row #appA {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* line 1762, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row #appB {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 1767, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row #oraB {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 1773, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row #eleB {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 1778, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row #catB {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 1784, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.buttonend .row button {
+  font-size: 30px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/*end test arabic*/
+/*start test english */
+/* line 1795, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testmath .row #dogE {
+  margin-bottom: 3.2em;
+}
+
+/*end test english*/
+/*start animalE*/
+/* line 1804, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback #all .row h4 {
+  font-size: 3.5em;
+}
+
+/* line 1808, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback #all .row button {
+  font-size: 1.9em;
+}
+
+/*end animalE*/
+/*start test islamic*/
+/* line 1818, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .row .testIs .img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 4em;
+}
+
+/* line 1824, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback #h3Isla {
+  margin-bottom: 1em;
+}
+
+/* line 1828, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback #h4Isla {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+/* line 1833, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback #h5Isla {
+  font-size: 35px;
+  color: #0a3e6f;
+}
+
+/* line 1838, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.form-control {
+  margin-left: 15em;
+  /*
+      width: 100px;
+      height: 34px;
+  */
+}
+
+/*
+.learnback   .row .testIs lable{
+     margin-left: 8em;
+}
+*/
+/* line 1852, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.learnback .testIs #rowIsla {
+  margin-top: 2em;
+}
+
+/* line 1858, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+lable {
+  /*    margin-left: 8em;*/
+  margin-right: 10em;
+  font-size: 25px;
+  color: #f20082;
+}
+
+/*end test islamic*/
+/* line 1866, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.noscroll {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+/* line 1871, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.tx-pxa-social-feed {
+  position: relative;
+}
+
+/* line 1874, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.tx-pxa-social-feed .btn {
+  margin: 50px auto;
+  text-align: center;
+  width: auto;
+  display: inline-block;
+}
+
+/* line 1880, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-button {
+  text-align: center;
+}
+
+/* line 1883, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-left,
+.carouselGallery-right {
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* line 1899, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-right {
+  right: -110px;
+}
+
+/* line 1902, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-left {
+  left: -25px;
+}
+
+/* line 1905, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-left.disabled,
+.carouselGallery-right.disabled {
+  cursor: auto;
+  -moz-opacity: 0.3;
+  opacity: 0.3;
+}
+
+/* line 1912, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-grid {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 3000px;
+  display: block !important;
+}
+
+/* line 1918, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-col-60 {
+  float: left;
+  width: 60%;
+}
+
+/* line 1923, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-col-40 {
+  width: 40%;
+  float: left;
+}
+
+/* line 1928, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-grid .carouselGallery-col-1 {
+  width: 100%;
+  padding-bottom: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+
+/* line 1935, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-grid .carouselGallery-col-2 {
+  width: 100%;
+  padding-bottom: 99.9%;
+  margin: 0;
+  cursor: pointer;
+}
+
+/* line 1942, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.heart {
+  left: -.5em;
+  top: 0.2em;
+}
+
+/* line 1946, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-item-meta {
+  background-color: #00b6e3;
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  padding: 19px 10px;
+  padding-right: 15px;
+  color: #fff;
+  bottom: -80px;
+  font-size: 2em;
+  transition: bottom 0.2s;
+  -moz-transition: bottom 0.2s;
+  -webkit-transition: bottom 0.2s;
+  -o-transition: bottom 0.2s;
+  text-align: center;
+  font-weight: 200;
+}
+
+/* line 1963, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-item-meta .icon-heart {
+  top: 5px;
+  font-size: 24px;
+  color: yellow;
+  line-height: 20px;
+}
+
+/* line 1969, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-col-1:hover .carouselGallery-item-meta,
+.carouselGallery-col-2:hover .carouselGallery-item-meta {
+  bottom: 0;
+}
+
+/* line 1973, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-item-meta {
+  right: 0;
+}
+
+/* line 1977, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-grid .carouselGallery-col-1,
+.carouselGallery-grid .carouselGallery-col-2 {
+  background-position: center center;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 1986, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-grid .carouselGallery-col-1 {
+  -webkit-box-shadow: 0 0 0 4px white;
+  -moz-box-shadow: 0 0 0 4px white;
+  box-shadow: 0 0 0 4px white;
+}
+
+/* line 1991, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-grid .carouselGallery-col-2 {
+  -webkit-box-shadow: 0 0 0 4px white;
+  -moz-box-shadow: 0 0 0 4px white;
+  box-shadow: 0 0 0 4px white;
+}
+
+/* line 1996, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-item-meta-user, .carouselGallery-item-meta-likes {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* line 2004, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-item-meta-likes {
+  width: 40%;
+}
+
+/* line 2007, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-item-meta-likes {
+  text-align: right;
+}
+
+/* line 2010, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-wrapper {
+  z-index: 9999;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(12, 12, 12, 0.8);
+  width: 100vw;
+  height: 100%;
+}
+
+/* line 2019, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-wrapper > div {
+  z-index: 2;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: auto;
+}
+
+/* line 2032, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-scrollbox {
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* line 2039, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-modal .container {
+  padding: 0;
+  font-size: 18px;
+  color: #000;
+  position: relative;
+  border-radius: 2px;
+  padding-right: 334px;
+  position: relative;
+  width: 780px;
+}
+
+/* line 2049, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-modal p {
+  font-size: 14px;
+  font-weight: normal;
+  max-height: 290px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  letter-spacing: 0.04em;
+  line-height: 2em;
+  color: #777;
+}
+
+/* line 2059, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-modal a {
+  color: #005293;
+  font-weight: bold;
+  font-size: 19px;
+  display: none;
+}
+
+/* line 2065, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-modal-image,
+.carouselGallery-modal-text {
+  width: 100%;
+  float: left;
+}
+
+/* line 2070, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-modal-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 335px;
+  height: 100%;
+}
+
+/* line 2077, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-modal-text:hover {
+  background-color: #fffffe;
+}
+
+/* line 2080, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-modal-image img {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* line 2084, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-modal-location {
+  margin-top: -3px;
+  font-size: 18px;
+  color: #00b6e3;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 2091, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-item-modal-likes {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* line 2096, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-item-modal-likes .icon-heart {
+  top: 3px;
+  font-size: 25px;
+  color: yellow;
+  float: left;
+  margin-right: 5px;
+}
+
+/* line 2103, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-modal-text {
+  background-color: #fff;
+  padding: 30px;
+}
+
+/* line 2107, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-modal-text span {
+  display: block;
+}
+
+/* line 2110, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carouselGallery-modal .iconscircle-cross {
+  cursor: pointer;
+  right: -30px;
+  top: -55px;
+  position: absolute;
+  z-index: 1;
+  font-size: 35px;
+  color: #fff;
+}
+
+@media (min-width: 3000px) {
+  /* line 2121, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .carouselGallery-grid {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 2126, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .carouselGallery-item-meta {
+    padding: 20px 10px;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 2131, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .carouselGallery-modal .container {
+    padding-right: 0;
+    width: 100%;
+  }
+
+  /* line 2135, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .carouselGallery-modal-image {
+    width: 100%;
+  }
+
+  /* line 2138, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .carouselGallery-item-modal-likes {
+    margin-bottom: 10px;
+  }
+
+  /* line 2141, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .carouselGallery-modal p {
+    max-height: 100%;
+  }
+
+  /* line 2144, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+  .carouselGallery-modal-text {
+    text-align: left;
+    position: relative;
+    bottom: auto;
+    right: auto;
+    width: 100%;
+  }
+}
+/* thank you page*/
+/* line 2157, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.panel-body p {
+  background: #d3d3d3;
+  height: 90px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+/* line 2166, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.carousel-caption {
+  font-size: 40px;
+  color: red;
+  font-width: 70%;
+}
+
+/* contact Us*/
+/* line 2173, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.contact {
+  font-family: Spirax, sans-serif;
+  color: #7D053F;
+  text-align: center;
+  padding: 40px 0 20px;
+}
+
+/* line 2179, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.contact_button {
+  background-color: #7D053F;
+  border-color: #7D053F;
+  text-align: center;
+}
+
+/* line 2187, C:/sites/kidsapp/app/assets/stylesheets/simple_pages.scss */
+.form-group {
+  color: #7D053F;
+  text-align: left;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
