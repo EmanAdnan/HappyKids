@@ -90,8 +90,8 @@ Rails.application.configure do
     config.active_record.dump_schema_after_migration = false
     
 
-config.web_socket_server_url = "wss://thawing-plains-26415.herokuapp.com/cable"
-config.action_cable.allowed_request_origins = ['https://thawing-plains-26415.herokuapp.com', 'http://thawing-plains-26415.herokuapp.com']
+config.web_socket_server_url = "wss://happy-kids.herokuapp.com/cable"
+config.action_cable.allowed_request_origins = ['https://happy-kids.herokuapp.com', 'http:happy-kids.herokuapp.com']
 
 
 # Memecachier - Dalli
