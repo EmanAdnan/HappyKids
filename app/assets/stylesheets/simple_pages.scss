@@ -71,11 +71,12 @@ h3.title  {
 /*-- header --*/
 
 header {
-    padding: 10px 0px;
+    padding: 13px 0px;
     width: 100%;
 }
 /*---nav bar--*/
-.navbar-collapse {padding:0;}
+.navbar-collapse {padding:0;
+   margin-top: -2em; }
 
 ul.navbar-nav.mr-auto
 {
@@ -115,23 +116,28 @@ ul.navbar-nav.mr-auto
 
 /*--banner--*/
 .w3-agile-logo {
-    margin: 2em 0;
+    margin: 3.5em 0;
      background: rgba(9, 88, 128, 0);
 }
 .head-wl {
     text-align: center;
 
-    margin: 0 auto;
+    margin: 1 auto;
 }
 .headder-w3 {
     float: left;
     display: inline-block;
+    margin-top: 2.5em;
 }
 
 .head-wl h1 a {
     text-transform: uppercase;
     color: #df2e42;
     font-size: 50px;
+    
+
+
+
 }
 
 .tele {
@@ -155,10 +161,12 @@ ul.navbar-nav.mr-auto
 background-image: url('h3.jpg');
     background-size: cover;
     min-height: 800px;
+    margin-top: -4em;
+
 }
 .w3layouts-text {
     text-align: center;
-    margin-top: 15em;
+    margin-top: 10em;
 }
 .w3layouts-text h2 {
     color: #5cb85c;
@@ -2176,22 +2184,3 @@ box-shadow: 0 0 0 4px rgba(255,255,255,1);
 	font-width:70%
 }
 
-/* contact Us*/
-.contact {
-    font-family: Spirax, sans-serif;
-    color: #7D053F;
-    text-align: center;
-    padding: 40px 0 20px;
-}
-.contact_button{
-  background-color: #7D053F;
-    border-color: #7D053F;
-    text-align: center;
-
-
-    
-}
-.form-group{
-    color: #7D053F;
-    text-align: left;
-}

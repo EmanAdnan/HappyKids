@@ -14,5 +14,228 @@
  *= require_self
  */
 
- 
+/* Login form */
+.eman {
+  background-image: url('learnb.jpg');
+}
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
 
+.login-header {
+  background: #FF6666;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container {
+  background: #fffeea;
+  padding: 12px;
+}
+
+.login .field {
+  padding: 8px;
+  text-align: center;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+
+.login input[type="submit"] {
+  background: #FF6666;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: #FF9966;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: #05a;
+}
+
+.login .forgot {
+  text-color: #fff;
+}
+/* signup */
+.signup{
+ width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+ 
+}  
+.signup-header {
+  background: #FF6666;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: auto;
+}
+
+.signup-container {
+  background: #fffeea;
+  padding: 12px;
+}
+
+
+.signup .field {
+  padding: 8px;
+  text-align: center;
+}
+
+.signup input[type="submit"] {
+  background: #FF6666;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signup input[type="submit"]:hover {
+  background: #FF9966;
+}
+
+/* Buttons' focus effect */
+.signup input[type="submit"]:focus {
+  border-color: #05a;
+}
+
+/* password */
+.password{
+ width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+ 
+}
+
+.password-header {
+  
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  margin: auto;
+}
+
+.password-container {
+  background: #fffeea;
+  width: 100%;
+}
+
+.password input[type="submit"] {
+  background: #FF6666;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.password input[type="submit"]:hover {
+  background: #FF9966;
+}
+
+/* Buttons' focus effect */
+.password input[type="submit"]:focus {
+  border-color: #05a;
+}
+
+/* Edit */
+.edit{
+ width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+ 
+}
+
+.edit-header {
+  background: #FF6666;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: auto;
+}
+
+.edit-container {
+  background: #fffeea;
+  padding: 12px;
+}
+
+
+.edit.field {
+  padding: 8px;
+  text-align: center;
+}
+
+.edit input[type="submit"] {
+  background: #FF6666;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.edit input[type="submit"]:hover {
+  background: #FF9966;
+}
+
+/* Buttons' focus effect */
+.edit input[type="submit"]:focus {
+  border-color: #05a;
+}
+
+/* contact Us*/
+.contact {
+    font-family: Spirax, sans-serif;
+    color: #7D053F;
+    text-align: center;
+    padding: 25px 0 20px;
+    font-size: 20px
+    
+}
+.contact_button{
+  background-color: #7D053F;
+    border-color: #7D053F;   
+}
+.form-group{
+    color: #7D053F;
+    font-size: 15px
+    
+    
+}
+.contact_form{
+  text-align: center;
+}
+.map{
+  
+      position: relative;
+    overflow: hidden;
+    height: 300px;
+    
+    margin-bottom: 10px;
+    margin-top: -320px;
+}
+
+ 

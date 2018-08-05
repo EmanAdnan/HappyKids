@@ -34,10 +34,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="headder-w3">
 		<h1><a  href="/simple_pages/index">HAPPY KIDS</a></h1>
 		</div>
-		<div class=" tele">
-		<p><span  class="fa fa-phone" aria-hidden="true"></span> +972 599 903 104</p>
-		 <h6>Gaza</h6>
-		</div>
+		
 		<div class="clearfix"> </div>
 		</div>
 	</div>
@@ -171,10 +168,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                   </div>
                               
                                <div class="row">
-                             <button type="button" class="btn btn-primary">ف</button>
-                             <button type="button" class="btn btn-primary">ع</button>
-                             <button type="button" class="btn btn-primary">أ</button>
-                             <button type="button" class="btn btn-primary">ب</button>
+                             <button type="button" class="btn btn-primary"
+                             onclick="checkAnswer('ف', 'ع')">ف</button>
+                             <button type="button" class="btn btn-primary"
+                             onclick="checkAnswer('ع', 'ع')">ع</button>
+                             <button type="button" class="btn btn-primary"
+                             onclick="checkAnswer('أ', 'ع')">أ</button>
+                             <button type="button" class="btn btn-primary"
+                             onclick="checkAnswer('ب', 'ع')">ب</button>
                                   </div>
                                  
                                       </div>
@@ -182,29 +183,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                <div class="col-lg-6 col-md-6 col-sm-6">
                               <%= image_tag("a4.PNG", width:350, height:200, class: "img-fluid"  ) %>
                                
-                                <div class="row">  
+                                
                               
                                   </div>
                               
                                <div class="row">
-                             <button type="button" id="numcacke" class="btn btn-primary">ذ</button>
-                             <button type="button" id="numcacke" class="btn btn-primary">ع</button>
-                             <button type="button" id="numcacke" class="btn btn-primary">ن</button>
-                             <button type="button" id="numcacke" class="btn btn-primary">د</button>
+                             <button type="button" id="numcacke" class="btn btn-primary"
+                             onclick="checkAnswer('ذ', 'د')">ذ</button>
+                             <button type="button" id="numcacke" class="btn btn-primary"
+                             onclick="checkAnswer('ع', 'د')">ع</button>
+                             <button type="button" id="numcacke" class="btn btn-primary"
+                             onclick="checkAnswer('ن', 'د')">ن</button>
+                             <button type="button" id="numcacke" class="btn btn-primary"
+                             onclick="checkAnswer('د', 'د')">د</button>
                                   </div>
                                
                                
                                 </div>
                                 
                                          
-                               </div> 
-                              
-                              
-                              
-                              
-                              
-                            
-                               </div>
                                
                                
                                
@@ -222,10 +219,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                   </div>
                               
                                <div class="row">
-                             <button type="button" class="btn btn-primary">ل</button>
-                             <button type="button" class="btn btn-primary">ج</button>
-                             <button type="button" class="btn btn-primary">م</button>
-                             <button type="button" class="btn btn-primary">ي</button>
+                             <button type="button" class="btn btn-primary"
+                             onclick="checkAnswer('ل', 'م')">ل</button>
+                             <button type="button" class="btn btn-primary"
+                             onclick="checkAnswer('ج', 'م')">ج</button>
+                             <button type="button" class="btn btn-primary"
+                             onclick="checkAnswer('م', 'م')">م</button>
+                             <button type="button" class="btn btn-primary"
+                             onclick="checkAnswer('ي', 'م')">ي</button>
                                   </div>
                                  
                                       </div>
@@ -238,10 +239,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                   </div>
                               
                                <div class="row">
-                             <button type="button" id="numcacke" class="btn btn-primary">ض</button>
-                             <button type="button" id="numcacke" class="btn btn-primary">ص</button>
-                             <button type="button" id="numcacke" class="btn btn-primary">ط</button>
-                             <button type="button" id="numcacke" class="btn btn-primary">ظ</button>
+                             <button type="button" id="numcacke" class="btn btn-primary"
+                             onclick="checkAnswer('ض', 'ض')">ض</button>
+                             <button type="button" id="numcacke" class="btn btn-primary"
+                             onclick="checkAnswer('ص', 'ض')">ص</button>
+                             <button type="button" id="numcacke" class="btn btn-primary"
+                             onclick="checkAnswer('ط', 'ض')">ط</button>
+                             <button type="button" id="numcacke" class="btn btn-primary"
+                             onclick="checkAnswer('ظ', 'ض')">ظ</button>
                                   </div>
                                
                                
@@ -269,10 +274,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                   </div>
                               
                                <div class="row">
-                             <button type="button" class="btn btn-primary">و</button>
-                             <button type="button" class="btn btn-primary">ز</button>
-                             <button type="button" class="btn btn-primary">ر</button>
-                             <button type="button" class="btn btn-primary">س</button>
+                             <button type="button" class="btn btn-primary"
+                             onclick="checkAnswer('و', 'ز')">و</button>
+                             <button type="button" class="btn btn-primary"
+                             onclick="checkAnswer('ز', 'ز')">ز</button>
+                             <button type="button" class="btn btn-primary"
+                             onclick="checkAnswer('ر', 'ز')">ر</button>
+                             <button type="button" class="btn btn-primary"
+                             onclick="checkAnswer('س', 'ز')">س</button>
                                   </div>
                                  
                                       </div>
@@ -285,10 +294,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                   </div>
                               
                                <div class="row">
-                             <button type="button" id="numplus" class="btn btn-primary">غ</button>
-                             <button type="button" id="numplus" class="btn btn-primary">س</button>
-                             <button type="button" id="numplus" class="btn btn-primary">ع</button>
-                             <button type="button" id="numplus" class="btn btn-primary">ش</button>
+                             <button type="button" id="numplus" class="btn btn-primary"
+                             onclick="checkAnswer('غ', 'ع')">غ</button>
+                             <button type="button" id="numplus" class="btn btn-primary"
+                             onclick="checkAnswer('س', 'ع')">س</button>
+                             <button type="button" id="numplus" class="btn btn-primary"
+                             onclick="checkAnswer('ع', 'ع')">ع</button>
+                             <button type="button" id="numplus" class="btn btn-primary"
+                             onclick="checkAnswer('ش', 'ع')">ش</button>
                                   </div>
                                
                                
@@ -314,10 +327,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                   </div>
                               
                                <div class="row">
-                             <button type="button" id="catB"  class="btn btn-primary">قطة</button>
-                             <button type="button" id="catB" class="btn btn-primary">فيل</button>
-                             <button type="button" id="catB" class="btn btn-primary">كلب</button>
-                             <button type="button" id="catB" class="btn btn-primary">أسد</button>
+                             <button type="button" id="catB"  class="btn btn-primary"
+                             onclick="checkAnswer('قطة', 'قطة')">قطة</button>
+                             <button type="button" id="catB" class="btn btn-primary"
+                             onclick="checkAnswer('فيل', 'قطة')">فيل</button>
+                             <button type="button" id="catB" class="btn btn-primary"
+                             onclick="checkAnswer('كلب', 'قطة')">كلب</button>
+                             <button type="button" id="catB" class="btn btn-primary"
+                             onclick="checkAnswer('أسد', 'قطة')">أسد</button>
                                   </div>
                                  
                                       </div>
@@ -330,10 +347,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                   </div>
                               
                                <div class="row">
-                             <button type="button" id="eleB" class="btn btn-primary">فيل</button>
-                             <button type="button" id="eleB" class="btn btn-primary">بطة</button>
-                             <button type="button" id="eleB" class="btn btn-primary">كلب</button>
-                             <button type="button" id="eleB" class="btn btn-primary">قرد</button>
+                             <button type="button" id="eleB" class="btn btn-primary"
+                             onclick="checkAnswer('فيل', 'فيل')">فيل</button>
+                             <button type="button" id="eleB" class="btn btn-primary"
+                             onclick="checkAnswer('بطة', 'فيل')">بطة</button>
+                             <button type="button" id="eleB" class="btn btn-primary"
+                             onclick="checkAnswer('كلب', 'فيل')">كلب</button>
+                             <button type="button" id="eleB" class="btn btn-primary"
+                             onclick="checkAnswer('قرد', 'فيل')">قرد</button>
                                   </div>
                                
                                
@@ -360,10 +381,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                   </div>
                               
                                <div class="row">
-                             <button type="button" id="appB"  class="btn btn-primary">برتقالة</button>
-                             <button type="button" id="appB" class="btn btn-primary">تفاحة</button>
-                             <button type="button" id="appB" class="btn btn-primary">موزة</button>
-                             <button type="button" id="appB" class="btn btn-primary">فراولة</button>
+                             <button type="button" id="appB"  class="btn btn-primary"
+                             onclick="checkAnswer('برتقالة', 'تفاحة')">برتقالة</button>
+                             <button type="button" id="appB" class="btn btn-primary"
+                             onclick="checkAnswer('تفاحة', 'تفاحة')">تفاحة</button>
+                             <button type="button" id="appB" class="btn btn-primary"
+                             onclick="checkAnswer('موزة', 'تفاحة')">موزة</button>
+                             <button type="button" id="appB" class="btn btn-primary"
+                             onclick="checkAnswer('فراولة', 'تفاحة')">فراولة</button>
                                   </div>
                                  
                                       </div>
@@ -376,10 +401,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                   </div>
                               
                                <div class="row">
-                             <button type="button" id="oraB" class="btn btn-primary">عنب</button>
-                             <button type="button" id="oraB" class="btn btn-primary">موزة</button>
-                             <button type="button" id="oraB" class="btn btn-primary">كرز</button>
-                             <button type="button" id="oraB" class="btn btn-primary">برتقالة</button>
+                             <button type="button" id="oraB" class="btn btn-primary"
+                             onclick="checkAnswer('عنب', 'برتقالة')">عنب</button>
+                             <button type="button" id="oraB" class="btn btn-primary"
+                             onclick="checkAnswer('موزة', 'برتقالة')">موزة</button>
+                             <button type="button" id="oraB" class="btn btn-primary"
+                             onclick="checkAnswer('كرز', 'برتقالة')">كرز</button>
+                             <button type="button" id="oraB" class="btn btn-primary"
+                             onclick="checkAnswer('برتقالة', 'برتقالة')">برتقالة</button>
                                   </div>
                                
                                
@@ -510,6 +539,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 				<!-- Portfolio -->
 			<script src="js/main.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script type="text/javascript">
+        function checkAnswer(answer, rightAnswer){
+           if(answer == rightAnswer){
+             swal({
+               title: "رائع!",
+               text: "",
+               icon: "success",
+               button: "OK",
+             });
+           }else{
+             swal({
+               title: "حاول مرة أخرى!",
+               text: "",
+               icon: "error",
+               button: "OK",
+             });
+           }
+        }
+      </script>
 		<!-- //Portfolio -->
 			<!-- start-smoth-scrolling -->
 			<script type="text/javascript" src="js/move-top.js"></script>
