@@ -173,7 +173,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textnum">
                                <h4>One 1</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "1.mp3", class: "audio-play audio14" %>
+                              <button type="button" class="btn btn-info audioButton14 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -193,7 +194,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textnum">
                                <h4>Two 2</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "2.mp3", class: "audio-play audio15" %>
+                              <button type="button" class="btn btn-info audioButton15 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -208,7 +210,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textnum">
                                <h4>Three 3</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "3.mp3", class: "audio-play audio16" %>
+                              <button type="button" class="btn btn-info audioButton16 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -224,7 +227,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textnum">
                                <h4>Four 4</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "4.mp3", class: "audio-play audio17" %>
+                              <button type="button" class="btn btn-info audioButton17 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -240,7 +244,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textnum">
                                <h4>Five 5</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "5.mp3", class: "audio-play audio18" %>
+                              <button type="button" class="btn btn-info audioButton18 audioall" >Read</button>
                                
                                 </div>   
                                </div> 
@@ -255,7 +260,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textnum">
                                <h4>Six 6</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "6.mp3", class: "audio-play audio19" %>
+                              <button type="button" class="btn btn-info audioButton19 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -270,7 +276,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textnum">
                                <h4>Seven 7</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "7.mp3", class: "audio-play audio20" %>
+                              <button type="button" class="btn btn-info audioButton20 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -286,7 +293,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textnum">
                                <h4>Eight 8</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "8.mp3", class: "audio-play audio21" %>
+                              <button type="button" class="btn btn-info audioButton21 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -302,7 +310,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textnum">
                                <h4>Nine 9</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "9.mp3", class: "audio-play audio22" %>
+                              <button type="button" class="btn btn-info audioButton22 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -318,7 +327,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textnum">
                                <h4>Ten 10</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "10.mp3", class: "audio-play audio23" %>
+                              <button type="button" class="btn btn-info audioButton23 audioall">Read</button>
                                
                                 </div> <br><br>
                                  <div class="videonumber">
@@ -386,6 +396,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //js -->
 
 	<script src="js/bootstrap.min.js"></script>	
+
+          <script>
+       
+  document.querySelectorAll(".audioall").forEach((element)=>{
+  element.addEventListener("click",()=>{
+   // var audio7= document.querySelector('.audio7');
+    // audio7.play();
+  console.log(element)
+  const number= element.classList[2].split('audioButton')[1]
+  const itemClass='.audio'.concat(number)
+  const audio = document.querySelector(itemClass)
+    audio.play();
+  });
+  }) 
+       </script> 
 			                                
 				<!-- FlexSlider -->
 				  <script defer src="js/jquery.flexslider.js"></script>

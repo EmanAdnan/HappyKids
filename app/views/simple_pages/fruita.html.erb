@@ -161,10 +161,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>تفاحة</h4>
-                               <button type="button" class="btn btn-info">إقرأ
-                                <audio src="audio1.mp3" ></audio>
-
-                               </button>
+                              <%= audio_tag "audio1.mp3", class: "audio-play" %>
+                              <button type="button" class="btn btn-info audioButton">إقرأ</button>
                                
                                 </div>   
                                </div> 
@@ -184,7 +182,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>موزة</h4>
-                               <button type="button" class="btn btn-info">إقرأ</button>
+                               <%= audio_tag "audio1.mp3", class: "audio-play" %>
+                              <button type="button" class="btn btn-info audioButton">إقرأ</button>
                                
                                 </div>   
                                </div> 
@@ -200,7 +199,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>فراولة</h4>
-                               <button type="button" class="btn btn-info">إقرأ</button>
+                               <%= audio_tag "audio1.mp3", class: "audio-play" %>
+                              <button type="button" class="btn btn-info audioButton">إقرأ</button>
                                
                                 </div>   
                                </div> 
@@ -217,7 +217,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>بطيخ</h4>
-                               <button type="button" class="btn btn-info">إقرأ</button>
+                               <%= audio_tag "audio1.mp3", class: "audio-play" %>
+                              <button type="button" class="btn btn-info audioButton">إقرأ</button>
                                
                                 </div>   
                                </div> 
@@ -233,7 +234,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>عنب</h4>
-                               <button type="button" class="btn btn-info">إقرأ</button>
+                               <%= audio_tag "audio1.mp3", class: "audio-play" %>
+                              <button type="button" class="btn btn-info audioButton">إقرأ</button>
                                
                                 </div>   
                                </div> 
@@ -248,7 +250,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>برتقالة</h4>
-                               <button type="button" class="btn btn-info">إقرأ</button>
+                               <%= audio_tag "audio1.mp3", class: "audio-play" %>
+                              <button type="button" class="btn btn-info audioButton">إقرأ</button>
                                
                                 </div>   
                                </div> 
@@ -264,7 +267,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>كرز</h4>
-                               <button type="button" class="btn btn-info">إقرأ</button>
+                               <%= audio_tag "audio1.mp3", class: "audio-play" %>
+                              <button type="button" class="btn btn-info audioButton">إقرأ</button>
                                
                                 </div>   
                                </div> 
@@ -326,6 +330,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	<script src="js/bootstrap.min.js"></script>	
 			                                
+    <script> 
+      $(".audioButton").on("click", function() {
+        $(".audio-play")[0].currentTime = 0;
+        return $(".audio-play")[0].play();
+      }); 
+       </script> 
+
+
 				<!-- FlexSlider -->
 				  <script defer src="js/jquery.flexslider.js"></script>
 				  <script type="text/javascript">

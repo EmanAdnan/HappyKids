@@ -161,7 +161,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>Apple</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "audio8.mp3", class: "audio-play audio7"  %>
+                              <button type="button" class="btn btn-info audioButton7 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -181,7 +182,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>Banana</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "audio9.mp3", class: "audio-play audio8" %>
+                              <button type="button" class="btn btn-info audioButton8 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -197,7 +199,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>Strawberry</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "audio10.mp3", class: "audio-play audio9" %>
+                              <button type="button" class="btn btn-info audioButton9 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -214,7 +217,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>Watermelon</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "audio11.mp3", class: "audio-play audio10" %>
+                              <button type="button" class="btn btn-info audioButton10 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -230,7 +234,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>Grip</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "audio12.mp3", class: "audio-play audio11" %>
+                              <button type="button" class="btn btn-info audioButton11 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -245,7 +250,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>Orange</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "audio13.mp3", class: "audio-play audio12" %>
+                              <button type="button" class="btn btn-info audioButton12 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -261,7 +267,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>Cherries</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "audio14.mp3", class: "audio-play audio13" %>
+                              <button type="button" class="btn btn-info audioButton13 audioall">Read</button>
                                
                                 </div>   
                                </div> 
@@ -322,7 +329,63 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //js -->
 
 	<script src="js/bootstrap.min.js"></script>	
-			                                
+
+
+        <script>
+     
+document.querySelectorAll(".audioall").forEach((element)=>{
+element.addEventListener("click",()=>{
+ // var audio7= document.querySelector('.audio7');
+  // audio7.play();
+console.log(element)
+const number= element.classList[2].split('audioButton')[1]
+const itemClass='.audio'.concat(number)
+const audio = document.querySelector(itemClass)
+  audio.play();
+});
+})
+
+/*document.querySelector('.audioButton7').addEventListener("click",()=>{
+ var audio7= document.querySelector('.audio7');
+  audio7.play();
+
+});
+
+document.querySelector('.audioButton8').addEventListener("click",()=>{
+ var audio8= document.querySelector('.audio8');
+  audio8.play();
+
+});
+
+document.querySelector('.audioButton9').addEventListener("click",()=>{
+ var audio8= document.querySelector('.audio9');
+  audio8.play();
+
+});
+
+document.querySelector('.audioButton10').addEventListener("click",()=>{
+ var audio8= document.querySelector('.audio10');
+  audio8.play();
+
+});
+document.querySelector('.audioButton11').addEventListener("click",()=>{
+ var audio8= document.querySelector('.audio11');
+  audio8.play();
+
+});
+document.querySelector('.audioButton12').addEventListener("click",()=>{
+ var audio8= document.querySelector('.audio12');
+  audio8.play();
+
+});
+
+document.querySelector('.audioButton13').addEventListener("click",()=>{
+ var audio8= document.querySelector('.audio13');
+  audio8.play();
+
+});*/
+        </script>
+     			                                
 				<!-- FlexSlider -->
 				  <script defer src="js/jquery.flexslider.js"></script>
 				  <script type="text/javascript">

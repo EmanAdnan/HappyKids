@@ -162,7 +162,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>Lion</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "audio1.mp3", class: "audio-play" %>
+                              <button type="button" class="btn btn-info audioButton">Read</button>
                                
                                 </div>   
                                </div> 
@@ -182,7 +183,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>Cat</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "audio2.mp3", class: "audio-play" %>
+                              <button type="button" class="btn btn-info audioButton1">Read</button>
                                
                                 </div>   
                                </div> 
@@ -197,7 +199,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>Dog</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "audio3.mp3", class: "audio-play" %>
+                              <button type="button" class="btn btn-info audioButton2">Read</button>
                                
                                 </div>   
                                </div> 
@@ -213,7 +216,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>Sheep</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "audio4.mp3", class: "audio-play" %>
+                              <button type="button" class="btn btn-info audioButton3">Read</button>
                                
                                 </div>   
                                </div> 
@@ -229,7 +233,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>Elephant</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "audio5.mp3", class: "audio-play" %>
+                              <button type="button" class="btn btn-info audioButton4">Read</button>
                                
                                 </div>   
                                </div> 
@@ -244,7 +249,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>Giraffe</h4>
-                               <button type="button" class="btn btn-info">إقرأ</button>
+                               <%= audio_tag "audio6.mp3", class: "audio-play" %>
+                              <button type="button" class="btn btn-info audioButton5">Read</button>
                                
                                 </div>   
                                </div> 
@@ -259,7 +265,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                
                                <div class="col-lg-6 col-md-6 col-sm-6 textcat">
                                <h4>Monkey</h4>
-                               <button type="button" class="btn btn-info">Read</button>
+                               <%= audio_tag "audio7.mp3", class: "audio-play" %>
+                              <button type="button" class="btn btn-info audioButton6">Read</button>
                                
                                 </div>   
                                </div> 
@@ -321,6 +328,56 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //js -->
 
 	<script src="js/bootstrap.min.js"></script>	
+
+  <script> 
+      $(".audioButton").on("click", function() {
+        $(".audio-play")[0].currentTime = 0;
+        return $(".audio-play")[0].play();
+      }); 
+       </script> 
+
+        <script> 
+      $(".audioButton1").on("click", function() {
+        $(".audio-play")[1].currentTime = 0;
+        return $(".audio-play")[1].play();
+      }); 
+       </script>
+
+        <script> 
+      $(".audioButton2").on("click", function() {
+        $(".audio-play")[2].currentTime = 2;
+        return $(".audio-play")[2].play();
+      }); 
+       </script>
+        <script> 
+      $(".audioButton3").on("click", function() {
+        $(".audio-play")[3].currentTime = 3;
+        return $(".audio-play")[3].play();
+      }); 
+       </script>  
+
+         <script> 
+      $(".audioButton4").on("click", function() {
+        $(".audio-play")[4].currentTime = 4;
+        return $(".audio-play")[4].play();
+      }); 
+       </script>  
+
+         <script> 
+      $(".audioButton5").on("click", function() {
+        $(".audio-play")[5].currentTime = 5;
+        return $(".audio-play")[5].play();
+      }); 
+       </script>  
+
+         <script> 
+      $(".audioButton6").on("click", function() {
+        $(".audio-play")[6].currentTime = 6;
+        return $(".audio-play")[6].play();
+      }); 
+       </script>   
+
+
 			                                
 				<!-- FlexSlider -->
 				  <script defer src="js/jquery.flexslider.js"></script>
